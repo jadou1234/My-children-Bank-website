@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('bg.avif'); /* Replace with your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff; /* Text color for better visibility on the background */
+}
+
+h1 {
+    font-size: 24px;
+    color: #fff;
+    background-color: #007acc; /* Background color for the heading */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Center the form horizontally */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Background color for the form with some transparency */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style input fields and buttons */
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #00c2cc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.5s ease; /* Add a transition for background color */
+
+}
+
+button:hover {
+    
+    background-color: #008c69;
+
+}
+
+/* Style result display in a message box */
+#result-box {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#result {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
